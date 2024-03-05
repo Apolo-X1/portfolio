@@ -1,0 +1,44 @@
+---
+const year = new Date().getFullYear();
+---
+<footer>
+    <div>
+        <div>
+            <ul class="icons">
+                <li><a href="https://github.com/Apolo-X1" target="_blank" class="foot-btn"><span class="git-icon">GitHub</span></a></li>
+                <li><a href="mailto: jdguerra44@misena.edu.co" class="foot-btn"><span class="mail-icon">Email</span></a></li>
+                <li><a href="https://www.linkedin.com/in/apolo-dev" target="_blank" class="foot-btn"><span class="linked-in">LinkedIn</span></a></li>
+            </ul>
+        </div>
+        <small>&copy; {year} <a href="https://github.com/Apolo-X1">Apolo-X1</a>.</small>
+    </div>
+</footer>
+<style>
+    footer {
+        margin: 4rem 0;
+    }
+
+    ul.icons {
+        cursor: default;
+        list-style: none;
+        padding: 0;
+    }
+
+    ul.icons li {
+        display: inline-block;
+        padding: 0 0.5rem;
+    }
+
+    div {
+        text-align: center;
+    }
+
+    small {
+        font-family: 'Josefin Sans', sans-serif; 
+    }
+
+    small a {
+        color: #007bff;
+        text-decoration: none;
+    }
+</style>

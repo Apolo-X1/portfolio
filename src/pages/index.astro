@@ -1,0 +1,143 @@
+---
+import Layout from "../layouts/Layout.astro";
+const pageTitle = "Apolo";
+---
+
+<Layout pageTitle={pageTitle}>
+    <div class="gif">
+        <img width="300" height="259" alt="RaccoonSpaceGif" src="/space.gif" />
+    </div>
+    <h1>Apolo-X1</h1>
+    <small>Software Developer</small>
+    <h2>About</h2>
+    <p>
+        I am a programmer with a true passion for creating practical and
+        innovative solutions. My goal is not just to write efficient code, but
+        also to understand the underlying needs and offer solutions that make
+        people's lives a little easier.
+        <br /><br />
+        Additionally, I am passionate about staying up to date with the latest technological
+        trends and development methodologies, constantly looking for ways to improve
+        and optimize my skills to offer increasingly solid and efficient solutions.
+        <br /><br />
+        I am excited by the challenges that programming presents me, always willing
+        to learn and evolve in this fascinating world of software development.
+    </p>
+    <!-- <div class="button">
+        <a href="./curri" target="_blank">
+            <button type="button">CV</button>
+        </a>
+    </div> -->
+    <h2>Skills</h2>
+    <div class="link-images">
+        <img
+            width="46"
+            height="46"
+            alt="Java"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
+        />
+        <img
+            width="46"
+            height="46"
+            alt="Docker"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg"
+        />
+        <img
+            width="46"
+            height="46"
+            alt="Python"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
+        />
+
+        <img
+            width="46"
+            height="46"
+            alt="JavaScript"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+        />
+        <img
+            width="46"
+            height="46"
+            alt="Flutter"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg"
+        />
+        <img
+            width="46"
+            height="46"
+            alt="MySQL"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"
+        />
+        <img
+            width="46"
+            height="46"
+            alt="Dart"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg"
+        />
+        <img
+            width="46"
+            height="46"
+            alt="HTML5"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+        />
+        <img
+            width="46"
+            height="46"
+            alt="CSS3"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+        />
+    </div>
+    <!-- <h2>Interests</h2>
+    <p>
+        Focused on back-end development and creation of mobile applications With
+        Flutter, I love playing guitar and exercising.
+    </p> -->
+</Layout>
+<style>
+    /* small */
+    small {
+        background-color: #584966;
+        color: #fdebf3;
+        border-radius: 6px;
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 600;
+        padding: 0.3em 0.6em 0.2em;
+    }
+
+    /* Button */
+    button {
+        background: rgba(0, 0, 0, 0);
+        border: 2px solid #78c2ad;
+        border-radius: 8px;
+        color: #fdebf3;
+        font:
+            600 16px "Josefin Sans",
+            sans-serif;
+        padding: 8px 16px;
+        transition:
+            background-color 0.4s,
+            color 0.4s;
+    }
+
+    button:hover {
+        background-color: #78c2ad;
+        color: #1e1e2e;
+        cursor: pointer;
+    }
+
+    .button {
+        text-align: center;
+    }
+
+    /* Skill images */
+    .link-images img {
+        margin: 16px 4px;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .link-images img {
+            height: 30px;
+            width: 30px;
+            margin: 16px 1px;
+        }
+    }
+</style>
